@@ -1,0 +1,18 @@
+[
+    {
+        "title": "safeline",
+        "slug": "safeline",
+        "url": "www.example.com",
+        "id": 1,
+        "image": "./images/safeline.jpg",
+        "description": "a fall detection app for the elderly"
+    },
+    {
+        "title": "littersmart",
+        "slug": "littersmart",
+        "url": "www.example.com",
+        "id": 2,
+        "image": "./images/littersmart.jpg",
+        "description": "a trash sorting web application"
+    }
+]

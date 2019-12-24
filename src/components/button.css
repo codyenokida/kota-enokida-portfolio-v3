@@ -1,0 +1,82 @@
+.button-container
+{
+    position: absolute;
+    display: inline-block;
+    height: 6.5vh;
+    width: 11vw;
+    padding: 1vh 5vw 0 5vw;
+    text-align: center;
+    top: 60vh;
+
+    transition: transform 200ms ease-out 0s, opacity 200ms ease-out 0s; 
+    transform: translateX(0px) translateY(10px) scale(0.9);
+
+    opacity: 0;
+}
+
+.button
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 10vw;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #2E3532;
+    background: white;
+    z-index: 2;
+    transform: translateX(0px) translateY(0px);
+    transition: transform 200ms ease-out 0s; 
+
+    text-align: center;
+}
+
+.button p
+{
+    top: 0;
+    margin: 0;
+    font-family: 'wask_new';
+    font-size: 1.5rem;
+}
+
+.backbutton
+{
+    position: absolute;
+    display: table-row;
+    margin-top: 0.75vh;
+    margin-left: 0.4vw;
+    height: 5vh;
+    width: 10vw;
+    border-style: solid;
+    border-width: 3px;    
+    border-color: #2E3532;
+    background: #2E3532;
+    z-index: 1
+}
+
+.button-container:hover
+{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .button-container
+    {
+        width: 18vw;
+        padding: 1vh 6vw 0 6vw;
+    }
+
+    .button
+    {
+        width: 16vw;
+    }
+
+    .backbutton
+    {
+        width: 16vw;
+    }
+}
