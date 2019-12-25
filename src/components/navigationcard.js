@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll'
 import logoimage from "../data/images/logo.png"
 import Button from "./button"
 
@@ -47,32 +48,86 @@ function navCard() {
 
                 <div class="nav-container" onMouseOver={() => showComponents(0)} onMouseLeave={() => hideComponents(0)}>
                     <div class="nav-link">
-                        <a class="nav-link-title" href="#about-section">ABOUT</a>
+                        <Link
+                            activeClass="active"
+                            to="about-section"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration= {500}
+                        >                        
+                            <a class="nav-link-title">ABOUT</a>
+                        </Link>
                     </div>
                     <div class="background"></div>
                     <img class="nav-image" src={logoimage} alt="about-image"/>
                     <p class="nav-p">you don’t know a lot about me... why don’t you come find out?</p>
-                    <Button int={0}/>
+                    <Link
+                        activeClass="active"
+                        to="about-section"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {1000}
+                    >                        
+                        <Button int={0}/>
+                    </Link>
                 </div>
 
                 <div class="nav-container" onMouseOver={() => showComponents(1)} onMouseLeave={() => hideComponents(1)}>
                     <div class="nav-link">
-                        <a class="nav-link-title" href="">WORKS</a>
+                        <Link
+                            activeClass="active"
+                            to="works-section"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration= {1000}
+                        >                        
+                            <a class="nav-link-title">WORKS</a>
+                        </Link>
                     </div>
                     <div class="background"></div>
                     <p class="nav-p">i like to dabble with a lot of different ideas. come check it out!</p>
                     <img class="nav-image" src={logoimage} alt="works-image"/>
-                    <Button int={1}/>
+                    <Link
+                        activeClass="active"
+                        to="works-section"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {1000}
+                    >                        
+                        <Button int={1}/>
+                    </Link>
                 </div>
 
                 <div class="nav-container" onMouseOver={() => showComponents(2)} onMouseLeave={() => hideComponents(2)}>
                     <div class="nav-link">
-                        <a class="nav-link-title" href="">GALLERY</a>
+                        <Link
+                            activeClass="active"
+                            to="gallery-section"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration= {1000}
+                        >                        
+                            <a class="nav-link-title">GALLERY</a>
+                        </Link>
                     </div>
                     <div class="background"></div>
                     <p class="nav-p">get to know me a little more personally through adventures i’ve gone to!</p>
                     <img class="nav-image" src={logoimage} alt="gallery-image"/>
-                    <Button int={2}/>
+                    <Link
+                        activeClass="active"
+                        to="gallery-section"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {1000}
+                    >                        
+                        <Button int={2}/>
+                    </Link>
                 </div>
                 
             </div>

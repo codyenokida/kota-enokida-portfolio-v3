@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import Image from 'gatsby-image'
-import './projects.css'
+import Image from 'gatsby-image';
+import './projects.css';
 
 function showOnHover(int) {
     var bgImage = document.getElementsByClassName("project-preview-image-container")[int - 1];
@@ -23,7 +22,6 @@ const Projects = ({id, slug, description, imageData}) => (
     <div class="project-container" onMouseOver={() => showOnHover(id)} onMouseOut={() => leaveOnHover(id)}>
         <h1 class="project-preview-title">{slug}</h1>
         {/* <Link to={`/${slug}/`}>
-            <Image fluid={imageData} alt={name}/>
         </Link> */}
         <div class="project-preview-image-container">
             <Image class="project-preview-image" fluid={imageData} alt={slug}/>

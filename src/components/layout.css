@@ -5,6 +5,7 @@
     top: 40vh;
     left: 5vw;
     width: 10vw;
+    cursor: pointer;
 }
 
 .box-container
@@ -60,6 +61,7 @@
 {
     position: sticky;
     text-decoration: none;
+    cursor: pointer;
     color: #FFE58A;
     color:white;
     text-shadow: 5px 0 0 #2E3532, 0px 0 0 #2E3532, 0 0px 0 #2E3532, 0 0px 0 #2E3532, 5px 5px #2E3532, 0px 0px 0 #2E3532, 1px -1px 0 #2E3532, -1px 1px 0 #2E3532;

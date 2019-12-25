@@ -1,18 +1,59 @@
-[
-    {
-        "title": "safeline",
-        "slug": "safeline",
-        "url": "www.example.com",
-        "id": 1,
-        "image": "./images/safeline.jpg",
-        "description": "a fall detection app for the elderly"
-    },
-    {
-        "title": "littersmart",
-        "slug": "littersmart",
-        "url": "www.example.com",
-        "id": 2,
-        "image": "./images/littersmart.jpg",
-        "description": "a trash sorting web application"
-    }
-]
+{
+    "projects": [
+        {
+            "title": "safeline",
+            "slug": "safeline",
+            "url": "www.example.com",
+            "id": 1,
+            "image": "./images/safeline.jpg",
+            "description": "a fall detection app for the elderly",
+            "languages": "react.js, python, opencv, swift, firebase"
+        },
+        {
+            "title": "littersmart",
+            "slug": "littersmart",
+            "url": "www.example.com",
+            "id": 2,
+            "image": "./images/littersmart.jpg",
+            "description": "a trash sorting web application",
+            "languages": "python, google cloud vision, opencv"
+        }
+    ],
+    "gallery": [
+        {
+            "title": "pismo beach",
+            "slug": "pismo beach",
+            "id": 1,
+            "image": "./images/pismo_beach.jpg",
+            "date": "12/17/19"
+        },
+        {
+            "title": "oregon",
+            "slug": "oregon",
+            "id": 2,
+            "image": "./images/oregon.jpg",
+            "date": "8/15/19"
+        },
+        {
+            "title": "big sur",
+            "slug": "big sur",
+            "id": 3,
+            "image": "./images/big_sur.jpg",
+            "date": "8/17/19"
+        },
+        {
+            "title": "lake tahoe",
+            "slug": "lake tahoe",
+            "id": 4,
+            "image": "./images/lake_tahoe.jpg",
+            "date": "3/25/19"
+        },
+        {
+            "title": "san francisco",
+            "slug": "san francisco",
+            "id": 5,
+            "image": "./images/san_fran.jpg",
+            "date": "8/20/19"
+        }
+    ]
+}

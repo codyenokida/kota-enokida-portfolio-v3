@@ -1,0 +1,96 @@
+.gallery-main-container
+{
+    display: inline-block;
+    margin: 5vh 5vw 5vh 20vw;
+    width: 75vw;
+}
+
+.gallery-container 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 5vh;
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery-box
+{
+    width: 20vw;
+    height: 20vw;
+    padding: 10px 10px 10px 10px; 
+    overflow: hidden;
+    background: white;
+    text-align: center;
+}
+
+.gallery-preview-image 
+{
+    position: absolute;
+    height: 20vw;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1);
+    transition: transform 100ms ease 0s, opacity 100ms ease-out 0s; 
+}
+
+.gallery-preview-title
+{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    opacity: 0;
+    z-index: 5;
+    margin: 0 0 0 10px;
+    text-shadow: 3px 0 0 #2E3532, 0px 0 0 #2E3532, 0 0px 0 #2E3532, 0 0px 0 #2E3532, 3px 3px #2E3532, 0px 0px 0 #2E3532, 0.5px -0.5px 0 #2E3532, -0.5px 0.5px 0 #2E3532;
+}
+
+.gallery-preview-date
+{
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    opacity: 0;
+    z-index: 5;
+    margin: 65px 0 0 10px;
+    text-shadow: 2px 0 0 #2E3532, 0px 0 0 #2E3532, 0 0px 0 #2E3532, 0 0px 0 #2E3532, 2px 2px #2E3532, 0px 0px 0 #2E3532, 0.5px -0.5px 0 #2E3532, -0.5px 0.5px 0 #2E3532;
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery-main-container
+    {
+        margin: 5vh 5vw 5vh 5vw;
+        width: 90vw;
+    }
+
+    .gallery-container
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 2vh;
+    }
+
+    .gallery-box
+    {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .gallery-preview-image
+    {
+        height: 35vw;
+    }
+
+    .gallery-preview-title
+    {
+        font-size: 1.5rem;
+        text-shadow: 2px 0 0 #2E3532, 0px 0 0 #2E3532, 0 0px 0 #2E3532, 0 0px 0 #2E3532, 2px 2px #2E3532, 0px 0px 0 #2E3532, 0.5px -0.5px 0 #2E3532, -0.5px 0.5px 0 #2E3532;
+        margin: 0 0 0 2px;
+    }
+
+    .gallery-preview-date
+    {
+        font-size: 1rem;
+        text-shadow: 2px 0 0 #2E3532, 0px 0 0 #2E3532, 0 0px 0 #2E3532, 0 0px 0 #2E3532, 2px 2px #2E3532, 0px 0px 0 #2E3532, 0.5px -0.5px 0 #2E3532, -0.5px 0.5px 0 #2E3532;
+        margin: 30px 0 0 2px;
+    }
+}
