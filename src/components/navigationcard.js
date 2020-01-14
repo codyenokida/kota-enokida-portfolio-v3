@@ -8,37 +8,44 @@ import "./layout.css"
 function navCard() {
 
     function showComponents(int) {
-        var navImage = document.getElementsByClassName("nav-image")[int];
-        var navP = document.getElementsByClassName("nav-p")[int];
-        var background = document.getElementsByClassName("background")[int];
-        var navButton = document.getElementsByClassName("button-container")[int];
-        var navTitle = document.getElementsByClassName("nav-link")[int];
-        navImage.style.transform = 'scale(1)';
-        navImage.style.opacity = 1;
-        navP.style.opacity = 1;
-        navP.style.transform = 'translateX(0px) translateY(0vh)';
-        background.style.transform = 'translateX(0px) translateY(0vh) scale(1)';
-        background.style.opacity = 1;
-        navButton.style.opacity = 1;
-        navButton.style.transform = 'translateX(0px) translateY(10px) scale(0.9)';
-        navTitle.style.top = '31vh';
+        // const mq = window.matchMedia( "(min-width: 960px)" );
+        if (window.innerWidth > 960) {
+            var navImage = document.getElementsByClassName("nav-image")[int];
+            var navP = document.getElementsByClassName("nav-p")[int];
+            var background = document.getElementsByClassName("background")[int];
+            var navButton = document.getElementsByClassName("button-container")[int];
+            var navTitle = document.getElementsByClassName("nav-link")[int];
+            navImage.style.transform = 'scale(1)';
+            navImage.style.opacity = 1;
+            navP.style.opacity = 1;
+            navP.style.transform = 'translateX(0px) translateY(0vh)';
+            background.style.transform = 'translateX(0px) translateY(0vh) scale(1)';
+            background.style.opacity = 1;
+            navButton.style.opacity = 1;
+            navButton.style.transform = 'translateX(0px) translateY(10px) scale(0.9)';
+            navTitle.style.top = '31vh';
+        }
     }
 
     function hideComponents(int) {
-        var navImage = document.getElementsByClassName("nav-image")[int];
-        var background = document.getElementsByClassName("background")[int];
-        var navP = document.getElementsByClassName("nav-p")[int];
-        var navButton = document.getElementsByClassName("button-container")[int];
-        var navTitle = document.getElementsByClassName("nav-link")[int];
-        navImage.style.transform = 'scale(0.5)';
-        navImage.style.opacity = 0;
-        navP.style.opacity = 0;
-        navP.style.transform = 'translateX(0px) translateY(-1vh)'
-        background.style.transform = 'translateX(0px) translateY(100vh) scale(0)';
-        background.style.opacity = 0;
-        navButton.style.opacity = 0;
-        navButton.style.transform = 'translateX(0px) translateY(0) scale(0)';      
-        navTitle.style.top = '32vh';
+        // const mq = window.matchMedia( "(min-width: 960px)" );
+
+        if (window.innerWidth > 960) {
+            var navImage = document.getElementsByClassName("nav-image")[int];
+            var background = document.getElementsByClassName("background")[int];
+            var navP = document.getElementsByClassName("nav-p")[int];
+            var navButton = document.getElementsByClassName("button-container")[int];
+            var navTitle = document.getElementsByClassName("nav-link")[int];
+            navImage.style.transform = 'scale(0.5)';
+            navImage.style.opacity = 0;
+            navP.style.opacity = 0;
+            navP.style.transform = 'translateX(0px) translateY(-1vh)'
+            background.style.transform = 'translateX(0px) translateY(100vh) scale(0)';
+            background.style.opacity = 0;
+            navButton.style.opacity = 0;
+            navButton.style.transform = 'translateX(0px) translateY(0) scale(0)';      
+            navTitle.style.top = '32vh';
+        }
     }
 
     return(
