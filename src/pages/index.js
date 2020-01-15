@@ -1,10 +1,10 @@
 import React from "react";
 
 import "./index.css";
-import LogoDiv from "../components/logoDiv";
-import Navcards from "../components/navigationcard";
-import Projects from "../components/projects";
-import Gallery from "../components/gallery";
+import LogoDiv from "../components/Logo/logo";
+import Navcards  from "../components/Navigation/navigation";
+import Projects from "../components/ProjectPreview/projects";
+import Gallery from "../components/Gallery/gallery";
 import { graphql, useStaticQuery } from 'gatsby';
 
 const IndexPage = () => {
@@ -18,6 +18,8 @@ const IndexPage = () => {
               slug
               description
               id
+              url
+              languages
               image {
                 childImageSharp {
                   fluid {
@@ -51,6 +53,7 @@ const IndexPage = () => {
 
   return(
     <div class='main-container' id="top">
+      {/* <Shapes /> */}
       <LogoDiv />
       <Navcards />
 

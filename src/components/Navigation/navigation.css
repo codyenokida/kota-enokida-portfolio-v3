@@ -1,13 +1,3 @@
-.kota-logo
-{
-    display: inline-block;
-    position: fixed;
-    top: 40vh;
-    left: 5vw;
-    width: 10vw;
-    cursor: pointer;
-}
-
 .box-container
 {
     display: inline-block;
@@ -59,7 +49,6 @@
 
 .nav-link-title
 {
-    position: sticky;
     text-decoration: none;
     cursor: pointer;
     color: #FFE58A;

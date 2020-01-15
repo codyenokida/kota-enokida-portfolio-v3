@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 import './projects.css';
 
@@ -20,13 +21,14 @@ function leaveOnHover(int) {
 
 const Projects = ({id, slug, description, imageData}) => (
     <div class="project-container" onMouseOver={() => showOnHover(id)} onMouseOut={() => leaveOnHover(id)}>
-        <h1 class="project-preview-title">{slug}</h1>
-        {/* <Link to={`/${slug}/`}>
-        </Link> */}
-        <div class="project-preview-image-container">
-            <Image class="project-preview-image" fluid={imageData} alt={slug}/>
-        </div>
-        <p class="project-preview-description">{description}</p>
+        <Link to={`/${slug}/`}>
+
+            <h1 class="project-preview-title">{slug}</h1>
+            <div class="project-preview-image-container">
+                <Image class="project-preview-image" fluid={imageData} alt={slug}/>
+            </div>
+            <p class="project-preview-description">{description}</p>
+        </Link>
     </div>
 );
 

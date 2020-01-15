@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll'
-import logoimage from "../data/images/logo.png"
-import Button from "./button"
 
-import "./layout.css"
+import logoImage from "../../data/images/logo.png";
+import aboutImage from "../../data/images/about-image.png";
+import worksImage from "../../data/images/works-image.png";
+import galleryImage from "../../data/images/gallery-image.png";
+import Button from "../Button/button";
+
+import "./navigation.css"
 
 function navCard() {
 
@@ -67,7 +71,7 @@ function navCard() {
                         </Link>
                     </div>
                     <div class="background"></div>
-                    <img class="nav-image" src={logoimage} alt="about-image"/>
+                    <img class="nav-image" src={aboutImage} alt="about-image"/>
                     <p class="nav-p">you don’t know a lot about me... why don’t you come find out?</p>
                     <Link
                         activeClass="active"
@@ -96,7 +100,7 @@ function navCard() {
                     </div>
                     <div class="background"></div>
                     <p class="nav-p">i like to dabble with a lot of different ideas. come check it out!</p>
-                    <img class="nav-image" src={logoimage} alt="works-image"/>
+                    <img class="nav-image" src={worksImage} alt="works-image"/>
                     <Link
                         activeClass="active"
                         to="works-section"
@@ -124,7 +128,7 @@ function navCard() {
                     </div>
                     <div class="background"></div>
                     <p class="nav-p">get to know me a little more personally through adventures i’ve gone to!</p>
-                    <img class="nav-image" src={logoimage} alt="gallery-image"/>
+                    <img class="nav-image" src={galleryImage} alt="gallery-image"/>
                     <Link
                         activeClass="active"
                         to="gallery-section"

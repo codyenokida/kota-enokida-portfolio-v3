@@ -1,0 +1,9 @@
+.kota-logo
+{
+    display: inline-block;
+    position: fixed;
+    top: 40vh;
+    left: 5vw;
+    width: 10vw;
+    cursor: pointer;
+}

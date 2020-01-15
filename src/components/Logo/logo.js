@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll'
-import './layout.css'
-import logoimage from "../data/images/logo.png"
+import { Link } from 'react-scroll';
+
+import './logo.css';
+import logoImage from "../../data/images/logo.png"
 
 
 function logoDiv() {
@@ -14,7 +15,7 @@ function logoDiv() {
             offset={0}
             duration= {1000}
         >                        
-            <img class="kota-logo" src={logoimage} alt="Kota Enokida Logo"/>
+            <img class="kota-logo" src={logoImage} alt="Kota Enokida Logo"/>
         </Link>
     );
 }
