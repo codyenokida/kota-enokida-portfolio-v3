@@ -5,6 +5,7 @@ import LogoDiv from "../components/Logo/logo";
 import Navcards  from "../components/Navigation/navigation";
 import Projects from "../components/ProjectPreview/projects";
 import Gallery from "../components/Gallery/gallery";
+import NavigationBar from "../components/NavWords/navwords"
 import { graphql, useStaticQuery } from 'gatsby';
 
 const IndexPage = () => {
@@ -53,9 +54,10 @@ const IndexPage = () => {
 
   return(
     <div class='main-container' id="top">
-      {/* <Shapes /> */}
+
       <LogoDiv />
       <Navcards />
+      <NavigationBar />
 
       <div class="about-section" id="about-section">
         

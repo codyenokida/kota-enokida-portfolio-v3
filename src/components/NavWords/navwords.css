@@ -1,0 +1,40 @@
+.navigation-word-container
+{
+    display: inline-block;
+
+    z-index: 99;
+
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    /* pointer-events: none; */
+
+    margin: 44vh 5vw 41vh 20vw;
+    height: 10vh;
+    width: 75vw;
+}
+
+.navigation-word-grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    text-align: center;
+    font-size: 6vw;
+}
+
+.nav-link-title
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    color: #FFE58A;
+    color:white;
+    margin: 0;
+    text-shadow: 5px 0 0 #2E3532, 0px 0 0 #2E3532, 0 0px 0 #2E3532, 0 0px 0 #2E3532, 5px 5px #2E3532, 0px 0px 0 #2E3532, 1px -1px 0 #2E3532, -1px 1px 0 #2E3532;
+    top: 0;
+    transition: top ease 0.25s;
+}
+

@@ -1,9 +1,40 @@
+/* Container for Logo */
+.logo-container
+{
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    /* background: white; */
+}
+
+/* Logo Image */
 .kota-logo
 {
     display: inline-block;
-    position: fixed;
-    top: 40vh;
-    left: 5vw;
+    position: absolute;
     width: 10vw;
-    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+
+    /* Container for Logo */
+    .logo-container
+    {
+        position: relative;
+        height: 20vh;
+        width: 100vw;
+    }
+
+    /* Logo Image */
+    .kota-logo
+    {
+        width: 15vh;
+    }
+
 }
