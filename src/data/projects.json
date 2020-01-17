@@ -21,37 +21,44 @@
     ],
     "gallery": [
         {
+            "title": "big bear",
+            "slug": "big bear",
+            "id": 1,
+            "image": "./images/big_bear.jpg",
+            "date": "12/17/19"
+        },
+        {
             "title": "pismo beach",
             "slug": "pismo beach",
-            "id": 1,
+            "id": 2,
             "image": "./images/pismo_beach.jpg",
             "date": "12/17/19"
         },
         {
             "title": "oregon",
             "slug": "oregon",
-            "id": 2,
+            "id": 3,
             "image": "./images/oregon.jpg",
             "date": "8/15/19"
         },
         {
             "title": "big sur",
             "slug": "big sur",
-            "id": 3,
+            "id": 4,
             "image": "./images/big_sur.jpg",
             "date": "8/17/19"
         },
         {
             "title": "lake tahoe",
             "slug": "lake tahoe",
-            "id": 4,
+            "id": 5,
             "image": "./images/lake_tahoe.jpg",
             "date": "3/25/19"
         },
         {
             "title": "san francisco",
             "slug": "san francisco",
-            "id": 5,
+            "id": 6,
             "image": "./images/san_fran.jpg",
             "date": "8/20/19"
         }
