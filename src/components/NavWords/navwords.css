@@ -38,3 +38,26 @@
     transition: top ease 0.25s;
 }
 
+/* Mobile */
+@media only screen and (max-width: 768px) {
+
+    /* Container for Entire Navigation */
+    .navigation-word-container
+    {
+        position: relative;
+        margin: 0 0 0 0;
+        height: 10vh;
+        width: 100vw;
+        /* background: black; */
+    }
+
+    .navigation-word-grid-container
+    {
+    }
+
+    .nav-link-title
+    {
+        font-size: 10vw;
+    }
+
+}

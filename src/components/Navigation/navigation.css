@@ -23,6 +23,7 @@
     /* Container for Entire Navigation */
     .navigation-container
     {
+        display: none;
         position: relative;
         margin: 0 0 0 0;
         height: 80vh;
