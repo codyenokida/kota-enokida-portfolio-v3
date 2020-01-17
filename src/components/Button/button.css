@@ -1,3 +1,4 @@
+/* Container for Button Component */
 .button-container
 {
     position: absolute;
@@ -14,6 +15,7 @@
     opacity: 0;
 }
 
+/* Actual Button */
 .button
 {
     position: absolute;
@@ -33,6 +35,7 @@
     text-align: center;
 }
 
+/* Text inside Button */
 .button p
 {
     top: 0;
@@ -41,6 +44,7 @@
     font-size: 1.5rem;
 }
 
+/* Button Shadowing */
 .backbutton
 {
     position: absolute;
@@ -56,25 +60,29 @@
     z-index: 1
 }
 
+/* On Hover */
 .button-container:hover
 {
     cursor: pointer;
 }
 
-
+/* Mobile */
 @media only screen and (max-width: 768px) {
 
+    /* Container for Button Component */
     .button-container
     {
         width: 18vw;
         padding: 1vh 6vw 0 6vw;
     }
 
+    /* Actual Button */
     .button
     {
         width: 16vw;
     }
 
+    /* Button Shadowing */
     .backbutton
     {
         width: 16vw;

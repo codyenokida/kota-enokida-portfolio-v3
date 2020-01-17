@@ -27,21 +27,23 @@ body
     margin: 0 0 0 0;
 }
 
+/* Container for About Component */
 .about-section
 {
     display: inline-block;
     padding: 5vh 5vw 5vh 20vw;
-    /* height: 90vh; */
     width: 75vw;
     z-index: 10;
 }
 
+/* Introduction for me */
 .introduction
 {
     margin-right: 5vw;
     font-size: 3rem;
 }
 
+/* Skills */
 .experience,
 .skills,
 .contact
@@ -49,12 +51,14 @@ body
     font-size: 2rem;
 }
 
+/* ID for light font */
 #intern
 {
     font-size: 1.75rem;
     font-family: 'wask_new';
 }
 
+/* Container for Project Previews */
 .project-main-container
 {
     display: grid;
@@ -64,13 +68,10 @@ body
     z-index: 10;
 }
 
-.sticky 
-{
-    position: fixed;
-    top: 0;
-}
-
+/* Mobile */
 @media only screen and (max-width: 768px) {
+    
+    /* Container for About Component */
     .about-section
     {
         padding: 0 5vw 0 5vw;
@@ -78,6 +79,7 @@ body
         width: 90vw;
     }
 
+    /* Introdution for me */
     .introduction
     {
         margin-right: 0;
@@ -85,6 +87,7 @@ body
         font-size: 2rem;
     }
 
+    /* Container for Project Preview */
     .project-main-container
     {
         padding: 0 5vw 0 5vw;

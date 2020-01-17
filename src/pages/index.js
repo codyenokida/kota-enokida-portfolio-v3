@@ -50,7 +50,6 @@ const IndexPage = () => {
 
   const projects = data.allDataJson.edges[0].node.projects;
   const gallery = data.allDataJson.edges[0].node.gallery;
-  console.log(gallery);
 
   return(
     <div class='main-container' id="top">

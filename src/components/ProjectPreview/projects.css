@@ -1,3 +1,4 @@
+/* Container for actual projects */
 .project-container
 {
     display: inline-block;
@@ -10,11 +11,13 @@
     overflow: hidden;
 }
 
+/* On Hover */
 .project-container:hover
 {
     cursor: pointer;
 }
 
+/* Project Title */
 .project-preview-title
 {
     position: absolute;
@@ -29,6 +32,7 @@
     z-index: 5
 }
 
+/* Container for Project Image */
 .project-preview-image-container
 {
     position: absolute;
@@ -42,6 +46,7 @@
     overflow: hidden;
 }
 
+/* Actual Image */
 .project-preview-image
 {
     position: absolute;
@@ -49,6 +54,7 @@
     z-index: 1
 }
 
+/* Short description of Project Preview */
 .project-preview-description
 {
     position: absolute;
@@ -61,12 +67,15 @@
     z-index: 5;
 }
 
+/* Mobile */
 @media only screen and (max-width: 768px) {
+    /* Container for actual projects */
     .project-container
     {
         height: 40vh;
     }
 
+    /* Container for Project Image */
     .project-preview-image-container
     {
         top: 100%;
@@ -74,12 +83,14 @@
         height: 0vh;
     }
 
+    /* Project Title */
     .project-preview-title
     {
         font-size: 5rem;
         text-shadow: 5px 0 0 #2E3532, 0px 0 0 #2E3532, 0 0px 0 #2E3532, 0 0px 0 #2E3532, 5px 5px #2E3532, 0px 0px 0 #2E3532, 1px -1px 0 #2E3532, -1px 1px 0 #2E3532;
     }
     
+    /* Short description of Project Preview */
     .project-preview-description
     {
         top: 60%;
