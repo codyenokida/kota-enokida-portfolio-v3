@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll'
 
-import logoImage from "../../data/images/logo.png";
+
 import aboutImage from "../../data/images/about-image.png";
 import worksImage from "../../data/images/works-image.png";
 import galleryImage from "../../data/images/gallery-image.png";

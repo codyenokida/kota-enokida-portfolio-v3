@@ -1,0 +1,94 @@
+.shape-wrapper 
+{
+}
+
+.square,
+.circle,
+.noodle,
+.triangle,
+.swirl
+{
+    position: absolute;
+    width: 7vw;
+    height: 7vw;   
+}
+
+#square-1
+{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: center;
+}
+
+#square-2
+{
+    grid-column: 5 / 6;
+    grid-row: 6 / 7;
+    align-self: center;
+}
+
+
+#noodle-1
+{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    align-self: center;
+}
+
+#noodle-2
+{
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    align-self: center;
+}
+
+#noodle-3
+{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    align-self: center;
+}
+
+#circle-1
+{
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    align-self: center;
+}
+
+#circle-2
+{
+    grid-column: 6 / 7;
+    grid-row: 5 / 6;
+    align-self: center;
+}
+
+#swirl-1
+{
+    grid-column: 6 / 7;
+    grid-row: 3 / 4;
+    align-self: center;
+}
+
+#swirl-2
+{
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+    align-self: center;
+}
+
+#triangle-1
+{
+    grid-column: 6 / 7;
+    grid-row: 1 / 2;
+    align-self: center;
+}
+
+#triangle-2
+{
+    width: 9vw;
+    height: 9vw;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    align-self: center;
+}

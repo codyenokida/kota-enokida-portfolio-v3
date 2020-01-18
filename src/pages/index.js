@@ -6,6 +6,7 @@ import Navcards  from "../components/Navigation/navigation";
 import Projects from "../components/ProjectPreview/projects";
 import Gallery from "../components/Gallery/gallery";
 import NavigationBar from "../components/NavWords/navwords"
+import Background from "../components/Background/background"
 import { graphql, useStaticQuery } from 'gatsby';
 
 const IndexPage = () => {
@@ -54,6 +55,7 @@ const IndexPage = () => {
   return(
     <div class='main-container' id="top">
 
+      <Background />
       <LogoDiv />
       <Navcards />
       <NavigationBar />
