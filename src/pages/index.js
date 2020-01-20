@@ -54,7 +54,6 @@ const IndexPage = () => {
 
   return(
     <div class='main-container' id="top">
-
       <Background />
       <LogoDiv />
       <Navcards />

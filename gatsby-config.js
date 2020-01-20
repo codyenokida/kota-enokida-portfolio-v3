@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Kota Cody Enokida - Portfolio`,
+    description: `Kota Cody Enokida - Portfolio`,
+    author: `Kota Cody Enokida`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/data/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/data/images/logo.png`,
       },
     },
   ],
