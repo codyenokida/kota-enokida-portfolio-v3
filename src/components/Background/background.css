@@ -4,7 +4,9 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
-
+    
+    z-index: -1;
+    
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 10px;

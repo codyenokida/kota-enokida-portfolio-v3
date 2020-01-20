@@ -16,8 +16,10 @@ function logoDiv() {
                 smooth={true}
                 offset={0}
                 duration= {1000}
-            >                        
-                <img class="kota-logo" src={logoImage} alt="Kota Enokida Logo"/>
+            >   
+                <div class="logo-wrapper">
+                    <img class="kota-logo" src={logoImage} alt="Kota Enokida Logo"/>
+                </div>                     
             </Link>
 
         </div>

@@ -11,13 +11,32 @@
 .kota-logo
 {
     display: inline-block;
+    cursor: pointer;
+    width: 7vw;
+    animation: wiggle 1s
+}
+
+/* Wrapper for Logo */
+.logo-wrapper
+{
+    display: inline-block;
     position: absolute;
     width: 7vw;
+    height: 7vw;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    cursor: pointer;
+}
+
+/* Wiggle Animation */
+@keyframes wiggle 
+{
+    0% { transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(20deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
 }
 
 /* Mobile */
@@ -29,6 +48,13 @@
         position: relative;
         height: 20vh;
         width: 100vw;
+    }
+
+    /* Wrapper for Logo */
+    .logo-wrapper
+    {
+        width: 15vh;
+        height: 15vh;
     }
 
     /* Logo Image */
