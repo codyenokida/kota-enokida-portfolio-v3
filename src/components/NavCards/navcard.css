@@ -14,8 +14,9 @@
     width: 100%;
     background-color: white;
     transform: translateX(0px) translateY(100vh); 
-    transition: transform 250ms ease-out 0s;
+    transition: transform 250ms ease-out 0s, display 200ms ease 0s;
     opacity: 0;
+    display: block;
     z-index: 1;
 }
 

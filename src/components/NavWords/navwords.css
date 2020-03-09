@@ -10,7 +10,7 @@
     position: sticky;
     top: 0;
 
-    margin: 44vh 5vw 41vh 20vw;
+    margin: 43vh 5vw 42vh 20vw;
     height: 10vh;
     width: 75vw;
 }
@@ -34,9 +34,10 @@
     color: #FFE58A;
     color:white;
     margin: 0;
+    padding: 10px 0 20px 0;
     text-shadow: 5px 0 0 #2E3532, 0px 0 0 #2E3532, 0 0px 0 #2E3532, 0 0px 0 #2E3532, 5px 5px #2E3532, 0px 0px 0 #2E3532, 1px -1px 0 #2E3532, -1px 1px 0 #2E3532;
     top: 0;
-    transition: top ease 0.25s;
+    transition: padding ease 0.25s;
 }
 
 /* Mobile */

@@ -8,8 +8,9 @@ function showComponents(int) {
 
     if (window.innerWidth > 960) {
         var navTitle = document.getElementsByClassName("nav-link-title")[int];
-        navTitle.style.top = '-10px';
-
+        // navTitle.style.top = '-10px';
+        navTitle.style.paddingBottom = '30px'
+        navTitle.style.paddingTop = '0px'
         var navImage = document.getElementsByClassName("nav-image")[int];
         var navP = document.getElementsByClassName("nav-p")[int];
         var background = document.getElementsByClassName("background")[int];
@@ -20,6 +21,7 @@ function showComponents(int) {
         navP.style.transform = 'translateX(0px) translateY(0vh)';
         background.style.transform = 'translateX(0px) translateY(0vh) scale(1)';
         background.style.opacity = 1;
+        background.style.display = 'block'
         navButton.style.opacity = 1;
         navButton.style.transform = 'translateX(0px) translateY(10px) scale(0.9)';
     }
@@ -30,7 +32,9 @@ function hideComponents(int) {
     if (window.innerWidth > 960) {
 
         var navTitle = document.getElementsByClassName("nav-link-title")[int];
-        navTitle.style.top = '0px';
+        // navTitle.style.top = '0px';
+        navTitle.style.paddingBottom = '20px'
+        navTitle.style.paddingTop = '0px'
 
         var navImage = document.getElementsByClassName("nav-image")[int];
         var background = document.getElementsByClassName("background")[int];
@@ -42,6 +46,7 @@ function hideComponents(int) {
         navP.style.transform = 'translateX(0px) translateY(-1vh)'
         background.style.transform = 'translateX(0px) translateY(100vh) scale(0)';
         background.style.opacity = 0;
+        background.style.display = 'none'
         navButton.style.opacity = 0;
         navButton.style.transform = 'translateX(0px) translateY(0) scale(0)';      
     }
