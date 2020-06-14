@@ -1,5 +1,17 @@
-# Kota Enokida Portfolio v3
+# Kota Enokida Personal Portfolio V3
 
-This is my third iteration of my personal portfolio!
+kotaenokida.netlify.app is the third iteration of my personal portfolio website. The website is built with Gatsby.js to boost performance. GraphQL is used to query and render project information. 
 
-This version of the website for my portfolio was written using [Gatsby](https://www.gatsbyjs.org).
+<p align="center">
+  <img src="./git-img/screenshot1.png" alt="Kota Enokida Portfolio 1" width="738">
+</p>
+
+## How it was made
+
+- Gatsby.js
+- GraphQL
+- React Hooks
+
+## What I learned
+
+While developing this project, I learned more about SVG animations and using React Hooks to change child/parent components. This project was also a good practice for GraphQL to query JSON and render components. 
